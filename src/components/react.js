@@ -1,6 +1,6 @@
 import React from 'react';
-import pi from '../images/pi_color.png';
-import $ from 'jquery';;
+import react_img from '../images/react.png';
+import $ from 'jquery';
 
 $(function () {
     $(".material-card > .mc-btn-action").on("click", function () {
@@ -30,22 +30,22 @@ $(function () {
     });
   });
 
-  export default class PI extends React.Component {
+  export default class REACT_IMG extends React.Component {
     render() {
       return (
         <>
          <div className="col-md-4 col-sm-6 col-xs-12">
           <article className="material-card Cyan">
             <h2>
-              <span>Mmm pi...</span>
+              <span>React</span>
             </h2>
             <div className="mc-content">
               <div className="img-container">
                 <img
                   className="img-responsive"
-                  src={pi}
+                  src={react_img}
                   alt="pi"
-                  style={{ width: "7em" }}
+                //   style={{ width: "10em" }}
                 />
               </div>
               <div className="mc-description">
@@ -57,12 +57,6 @@ $(function () {
                     JavaScript
                   </span>
                   <span className="badge badge-pill badge-danger">jQuery</span>
-                  <span className="badge badge-pill badge-light">
-                    Express.js
-                  </span>
-                  <span className="badge badge-pill badge-warning">
-                    Node.js
-                  </span>
                   <span className="badge badge-pill badge-dark">REACT</span>
                 </ul>
               </div>
